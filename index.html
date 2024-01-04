@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Restaurant</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #bf8787;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1 {
+            color: #f5f5f5;
+        }
+
+        h2, h3 {
+            color: #333;
+        }
+
+        a {
+            border: 3px rgba(245, 222, 179, 0.372) solid;
+            border-radius: 1rem;
+            padding: 1rem .5rem 1rem .5rem;
+            color: #15201f;
+            background-color: #d6a6a6;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            border: 3px rgb(255, 255, 255) solid;
+            color: #f7e648;
+            background-color: rgb(88, 146, 127);
+            box-shadow: 0px 0px 5px  rgb(255, 255, 255)
+        }
+
+        .menu-item {
+            border: 1px solid #ddd;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.02);
+        }
+
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Modern Restaurant</h1>
+    </header>
+
+    <nav>
+        <a href="#menu">Menu</a> |
+        <a href="#about">About Us</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="menu">
+        <h2>Menu</h2>
+
+        <div class="menu-item">
+            <img src="https://placekitten.com/300/200" alt="Dish 1">
+            <h3>Dish 1</h3>
+            <p>Description of Dish 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Price: $10.99</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://placekitten.com/300/201" alt="Dish 2">
+            <h3>Dish 2</h3>
+            <p>Description of Dish 2. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Price: $12.99</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Modern Restaurant, where we serve delightful and innovative dishes created with passion by our
+            skilled chefs. Experience a culinary journey like never before.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Visit us at:</p>
+        <address>
+            123 Main Street<br>
+            Cityville, State 12345<br>
+            USA
+        </address>
+        <p>Email us at: <a href="mailto:info@modernrestaurant.com">info@modernrestaurant.com</a></p>
+    </section>
+
+    <footer>
+        &copy; 2024 Modern Restaurant. All rights reserved.
+    </footer>
+</body>
+
+</html>
